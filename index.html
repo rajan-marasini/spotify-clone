@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify - All You Want is Here</title>
+        <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <div class="nav-logo">
+                        <div class="logo"><img src="logo.png" alt="" /></div>
+                    </div>
+                    <p>Spotify</p>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-house"></i></span>Home
+                </li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="subcontainer">
+                <h1>All You Want Is Here</h1>
+                <div class="songsList"></div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+
+        <div class="bottom">
+            <div class="progressBar">
+                <input
+                    type="range"
+                    name="progress"
+                    id="myProgressBar"
+                    min="0"
+                    max="100"
+                    value="0"
+                />
+            </div>
+
+            <div class="giff">
+                <div class="giffImage">
+                    <img src="playing.gif" alt="" id="animatedGiff" />
+                    <p id="currentPlaying"></p>
+                </div>
+            </div>
+
+            <div class="controlButtons">
+                <span class="margin"
+                    ><i id="previousButton" class="fa-solid fa-backward"></i
+                ></span>
+                <span class="margin"
+                    ><i class="fa-solid fa-play-circle" id="masterPlay"></i
+                ></span>
+                <span class="margin"
+                    ><i id="nextButton" class="fa-solid fa-forward"></i
+                ></span>
+            </div>
+        </div>
+    </body>
+    <script
+        src="https://kit.fontawesome.com/0e6b598a65.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</html>

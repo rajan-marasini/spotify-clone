@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: antiquewhite;
+}
+nav {
+    display: flex;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+h1 {
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.logo img {
+    width: 33px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.container {
+    background: url(bg.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    padding: 20px;
+    color: white;
+    margin: 10px auto;
+    width: 70vw;
+    border-radius: 20px;
+}
+.songsLists {
+    background-color: red;
+}
+
+.bottom {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    bottom: 0;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItems {
+    padding: 0 1rem;
+    height: 34px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.73);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 23px;
+    margin: 16px 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.songItems .coverImage img {
+    width: 28px;
+    border-radius: 23px;
+}
+
+.controlButtons {
+    font-size: 1.5rem;
+}
+
+.controlButtons i {
+    cursor: pointer;
+}
+.margin {
+    margin: 0 12px;
+}
+
+.giffImage {
+    display: flex;
+}
+
+.giff {
+    display: flex;
+    position: absolute;
+    left: 11vw;
+}
+.giffImage img {
+    width: 43px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songItems span i {
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    .giff {
+        position: static;
+    }
+}
+@media screen and (max-width: 500px) {
+    .songItems {
+        font-size: 0.7rem;
+    }
+}

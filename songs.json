@@ -1,0 +1,62 @@
+[
+    {
+        "songName": "Bhikhari - Oasis Thapa",
+        "filePath": "./songs/1.mp3",
+        "coverPath": "./covers/1.jpg",
+        "songLength": "03:35"
+    },
+    {
+        "songName": "The Elements - Collection",
+        "filePath": "./songs/2.mp3",
+        "coverPath": "./covers/2.jpg",
+        "songLength": "37:23"
+    },
+    {
+        "songName": "DEAF KEV - Invincible",
+        "filePath": "./songs/3.mp3",
+        "coverPath": "./covers/3.jpg",
+        "songLength": "03:12"
+    },
+    {
+        "songName": "Different Heaven - My Heart",
+        "filePath": "./songs/4.mp3",
+        "coverPath": "./covers/4.jpg",
+        "songLength": "03:04"
+    },
+    {
+        "songName": "Janji-Heroes-Tonight",
+        "filePath": "./songs/5.mp3",
+        "coverPath": "./covers/5.jpg",
+        "songLength": "03:56"
+    },
+    {
+        "songName": "VERB & 22 Void Beats - Ignite ",
+        "filePath": "./songs/6.mp3",
+        "coverPath": "./covers/6.jpg",
+        "songLength": "03:23"
+    },
+    {
+        "songName": "Toxic Joy & SRY - Walk Away",
+        "filePath": "./songs/7.mp3",
+        "coverPath": "./covers/7.jpg",
+        "songLength": "04:22"
+    },
+    {
+        "songName": "Rex Hooligan x Anna Simone",
+        "filePath": "./songs/8.mp3",
+        "coverPath": "./covers/8.jpg",
+        "songLength": "03:45"
+    },
+    {
+        "songName": "Andromedik & Murdock - Light",
+        "filePath": "./songs/9.mp3",
+        "coverPath": "./covers/9.jpg",
+        "songLength": "04:23"
+    },
+    {
+        "songName": "iFeature - Cozy Thunder",
+        "filePath": "./songs/10.mp3",
+        "coverPath": "./covers/10.jpg",
+        "songLength": "03:44"
+    }
+]
